@@ -63,3 +63,5 @@ require('lualine').setup {
   tabline = {},
   extensions = {},
 }
+
+require('luatab').setup()
