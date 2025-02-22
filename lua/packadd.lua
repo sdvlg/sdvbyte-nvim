@@ -36,4 +36,5 @@ return require("packer").startup(function(use)
   use "yorickpeterse/nvim-window"
   use "echasnovski/mini.nvim"
   use "nvim-lualine/lualine.nvim"
+  use "tamton-aquib/duck.nvim"
 end)
