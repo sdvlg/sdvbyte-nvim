@@ -52,3 +52,5 @@ map("n", "<leader>s", "<CMD>w<CR>", options)
 map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)
 -- duck
 map("n", "<leader>dd", "<CMD>lua require('duck').hatch('🦆')<CR>", options)
+
+require("package-info").setup()
