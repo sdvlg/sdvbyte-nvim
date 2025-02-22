@@ -4,5 +4,13 @@
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home",
   "[java]": {
     "semanticTokens.enable": true
-  }
+  },
+  "git.addGBlameToVirtualText": true,
+  "git.addGBlameToBufferVar": true,
+  "git.addedSign.text": "🍙",
+  "git.addedSign.hlGroup": "-",
+  "git.changedSign.text": "🍱",
+  "git.changedSign.hlGroup": "-",
+  "git.removedSign.text": "🐡",
+  "git.removedSign.hlGroup": "-"
 }

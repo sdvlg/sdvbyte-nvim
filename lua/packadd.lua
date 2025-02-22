@@ -1,3 +1,11 @@
+-- =======================================================================
+-- Author      : Kenedy Nopriansyah
+-- Email       : kenedinovriansyah@gmail.com
+-- Linkedin    : https://www.linkedin.com/in/kenedy-nopriansyah-b5864a200/
+-- Maintenance : @kenedy
+-- Date        : 22 February 2025
+-- =======================================================================
+
 local cmd = vim.cmd
 
 cmd [[packadd packer.nvim]]
@@ -13,8 +21,16 @@ return require("packer").startup(function(use)
     requires = {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons",
-      "MunifTanjim/nui.nvim",
+      "MunifTanjim/nui.nvim"
+    }
+  })
+  use({
+    "anuvyklack/windows.nvim",
+    requires = {
+      "anuvyklack/middleclass",
+      "anuvyklack/animation.nvim"
     }
   })
   use "nvim-treesitter/nvim-treesitter"
+  use "akinsho/toggleterm.nvim"
 end)

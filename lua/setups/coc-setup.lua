@@ -1,3 +1,11 @@
+-- =======================================================================
+-- Author      : Kenedy Nopriansyah
+-- Email       : kenedinovriansyah@gmail.com
+-- Linkedin    : https://www.linkedin.com/in/kenedy-nopriansyah-b5864a200/
+-- Maintenance : @kenedy
+-- Date        : 22 February 2025
+-- =======================================================================
+
 local g = vim.g
 local cmd = vim.cmd
 
@@ -11,7 +19,8 @@ g.coc_global_extensions = {
   "@yaegassy/coc-tailwindcss3",
   "coc-angular",
   "coc-vetur",
-  "coc-java"
+  "coc-java",
+  "coc-git"
 }
 
 cmd [[

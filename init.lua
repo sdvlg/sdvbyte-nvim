@@ -1,7 +1,10 @@
+-- =======================================================================
 -- Author      : Kenedy Nopriansyah
 -- Email       : kenedinovriansyah@gmail.com
 -- Linkedin    : https://www.linkedin.com/in/kenedy-nopriansyah-b5864a200/
 -- Maintenance : @kenedy
+-- Date        : 22 February 2025
+-- =======================================================================
 
 local cmd = vim.cmd
 local g = vim.g
@@ -14,6 +17,8 @@ require "packadd"
 require "setups/coc-setup"
 require "setups/neotree-setup"
 require "setups/treesitter-setup"
+require "setups/windows-setup"
+require "setups/toggleterm-setup"
 
 -- settings
 
