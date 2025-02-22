@@ -6,11 +6,5 @@
     "semanticTokens.enable": true
   },
   "git.addGBlameToVirtualText": true,
-  "git.addGBlameToBufferVar": true,
-  "git.addedSign.text": "🔋",
-  "git.addedSign.hlGroup": "-",
-  "git.changedSign.text": "💡",
-  "git.changedSign.hlGroup": "-",
-  "git.removedSign.text": "🪫",
-  "git.removedSign.hlGroup": "-"
+  "git.addGBlameToBufferVar": true
 }

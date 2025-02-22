@@ -20,10 +20,11 @@ require "setups/treesitter-setup"
 require "setups/windows-setup"
 require "setups/toggleterm-setup"
 require "setups/mini-setup"
+require "setups/lualine-setup"
 
 -- settings
 
-cmd [[colorscheme lunaperche]]
+cmd [[colorscheme retrobox]]
 
 require "setting"
 
