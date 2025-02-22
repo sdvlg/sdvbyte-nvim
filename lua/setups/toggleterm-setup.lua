@@ -22,7 +22,7 @@ toggleterm.setup({
   float_opts = {
     border = "curved",
     width = 160,
-    height = 20,
+    height = 36,
   },
   responsiveness = {
     horizontal_breakpoint = 135
