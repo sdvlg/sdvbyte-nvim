@@ -23,7 +23,7 @@ require "setups/mini-setup"
 
 -- settings
 
-cmd [[colorscheme sorbet]]
+cmd [[colorscheme lunaperche]]
 
 require "setting"
 
