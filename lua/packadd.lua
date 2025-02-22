@@ -33,4 +33,6 @@ return require("packer").startup(function(use)
   })
   use "nvim-treesitter/nvim-treesitter"
   use "akinsho/toggleterm.nvim"
+  use "yorickpeterse/nvim-window"
+  use "echasnovski/mini.nvim"
 end)

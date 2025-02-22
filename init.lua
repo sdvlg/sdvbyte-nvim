@@ -19,6 +19,7 @@ require "setups/neotree-setup"
 require "setups/treesitter-setup"
 require "setups/windows-setup"
 require "setups/toggleterm-setup"
+require "setups/mini-setup"
 
 -- settings
 
