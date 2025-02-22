@@ -24,7 +24,11 @@ require "setups/lualine-setup"
 
 -- settings
 
-cmd [[colorscheme retrobox]]
+cmd [[
+  colorscheme spaceduck
+  autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+  autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
+]]
 
 require "setting"
 
@@ -47,4 +51,4 @@ map("n", "<leader>s", "<CMD>w<CR>", options)
 -- database
 map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)
 -- duck
-map("n","<leader>dd","<CMD>lua require('duck').hatch('🦆')<CR>", options)
+map("n", "<leader>dd", "<CMD>lua require('duck').hatch('🦆')<CR>", options)
