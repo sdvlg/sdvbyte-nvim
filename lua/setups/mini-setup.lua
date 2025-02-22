@@ -1,3 +1,11 @@
+-- =======================================================================
+-- Author      : Kenedy Nopriansyah
+-- Email       : kenedinovriansyah@gmail.com
+-- Linkedin    : https://www.linkedin.com/in/kenedy-nopriansyah-b5864a200/
+-- Maintenance : @kenedy
+-- Date        : 22 February 2025
+-- =======================================================================
+
 require("mini.diff").setup({
   view = {
     style = "sign",
