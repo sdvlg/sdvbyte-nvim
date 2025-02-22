@@ -1,0 +1,8 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "prettier.enable": true,
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home",
+  "[java]": {
+    "semanticTokens.enable": true
+  }
+}
