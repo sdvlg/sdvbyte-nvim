@@ -47,3 +47,5 @@ map("n", "<leader>v", "<CMD>sp<CR>", options)
 map("n", "<leader>e", "<CMD>Exp<CR>", options)
 -- save
 map("n", "<leader>s", "<CMD>w<CR>", options)
+-- database
+map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)

@@ -37,4 +37,14 @@ return require("packer").startup(function(use)
   use "echasnovski/mini.nvim"
   use "nvim-lualine/lualine.nvim"
   use "tamton-aquib/duck.nvim"
+  use({
+    "kristijanhusak/vim-dadbod-ui",
+    requires = {
+      {
+        'tpope/vim-dadbod',
+        lazy = true
+      },
+      { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
+    }
+  })
 end)
