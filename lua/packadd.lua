@@ -35,8 +35,5 @@ return require("packer").startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "yorickpeterse/nvim-window"
   use "echasnovski/mini.nvim"
-  use({
-        "nvim-lualine/lualine.nvim",
-        requires = { "alvarosevilla95/luatab.nvim" }
-  })
+  use "nvim-lualine/lualine.nvim"
 end)
