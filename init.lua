@@ -24,10 +24,7 @@ require "setups/lualine-setup"
 
 -- settings
 
-cmd [[
-  colorscheme retrobox
-  lua require('duck').hatch('🦆')
-]]
+cmd [[colorscheme retrobox]]
 
 require "setting"
 
@@ -49,3 +46,5 @@ map("n", "<leader>e", "<CMD>Exp<CR>", options)
 map("n", "<leader>s", "<CMD>w<CR>", options)
 -- database
 map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)
+-- duck
+map("n","<leader>dd","<CMD>lua require('duck').hatch('🦆')<CR>", options)
