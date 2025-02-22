@@ -18,6 +18,21 @@ neotree.setup({
   open_files_using_relative_paths = false,
   sort_case_insensitive = false,
   sort_function = nil,
+  default_component_configs = {
+    git_status = {
+      symbols = {
+        added = "🌾",
+        modified = "",
+        deleted = "✖",
+        renamed = "󰁕",
+        untracked = "🍙",
+        ignored = "",
+        unstaged = "🐣",
+        staged = "",
+        conflict = "",
+      },
+    }
+  },
   window = {
     position = "left",
     width = 26,
@@ -44,17 +59,6 @@ neotree.setup({
     window = {
       position = "float"
     },
-            symbols = {
-              added = "", 
-              modified = "", 
-              deleted = "✖", 
-              renamed = "󰁕", 
-              untracked = "",
-              ignored = "",
-              unstaged = "󰄱",
-              staged = "",
-              conflict = "",
-            },
   },
   source_selector = {
     winbar = false,
