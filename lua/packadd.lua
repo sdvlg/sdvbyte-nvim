@@ -36,6 +36,7 @@ return require("packer").startup(function(use)
   use "yorickpeterse/nvim-window"
   use "echasnovski/mini.nvim"
   use "nvim-lualine/lualine.nvim"
+  use "vuki656/package-info.nvim"
   use({
     "tamton-aquib/duck.nvim",
     requires = { "https://github.com/pineapplegiant/spaceduck" }
