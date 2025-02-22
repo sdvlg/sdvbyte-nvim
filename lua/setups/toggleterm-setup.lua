@@ -23,6 +23,9 @@ toggleterm.setup({
     border = "curved",
     width = 160,
     height = 20,
+  },
+  responsiveness = {
+    horizontal_breakpoint = 135
   }
 })
 
