@@ -44,3 +44,5 @@ map("n", "<leader>v", "<CMD>sp<CR>", options)
 map("n", "<leader>e", "<CMD>Exp<CR>", options)
 -- save
 map("n", "<leader>s", "<CMD>w<CR>", options)
+-- animation
+map("n", "<leader>dd", "<CMD>lua require('duck').hatch('🦆')<CR>", options)
