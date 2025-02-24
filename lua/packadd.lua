@@ -39,7 +39,7 @@ return require("packer").startup(function(use)
   use "vuki656/package-info.nvim"
   use({
     "tamton-aquib/duck.nvim",
-    requires = { "https://github.com/pineapplegiant/spaceduck" }
+    requires = { "whatyouhide/vim-gotham" }
   })
   use({
     "kristijanhusak/vim-dadbod-ui",

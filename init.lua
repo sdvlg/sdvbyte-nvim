@@ -25,7 +25,7 @@ require "setups/lualine-setup"
 -- settings
 
 cmd [[
-  colorscheme spaceduck
+  colorscheme gotham
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
   autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 ]]
