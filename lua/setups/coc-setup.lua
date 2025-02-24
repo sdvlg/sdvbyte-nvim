@@ -11,6 +11,7 @@ local cmd = vim.cmd
 
 g.coc_global_extensions = {
   "coc-json",
+  "coc-toml",
   "coc-tsserver",
   "coc-pairs",
   "coc-emmet",
