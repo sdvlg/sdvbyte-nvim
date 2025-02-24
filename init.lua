@@ -54,3 +54,4 @@ map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)
 map("n", "<leader>dd", "<CMD>lua require('duck').hatch('🦆')<CR>", options)
 
 require("package-info").setup()
+require("crates").setup()

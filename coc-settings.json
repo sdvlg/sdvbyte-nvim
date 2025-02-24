@@ -6,5 +6,6 @@
     "semanticTokens.enable": true
   },
   "git.addGBlameToVirtualText": true,
-  "git.addGBlameToBufferVar": true
+  "git.addGBlameToBufferVar": true,
+  "workspace.ignoredFolders": ["$HOME", "$HOME/.cargo/**", "$HOME/.rustup/**"]
 }

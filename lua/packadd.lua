@@ -51,4 +51,5 @@ return require("packer").startup(function(use)
       { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
     }
   })
+  use "saecki/crates.nvim"
 end)

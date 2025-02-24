@@ -20,7 +20,8 @@ g.coc_global_extensions = {
   "coc-angular",
   "coc-vetur",
   "coc-java",
-  "coc-git"
+  "coc-git",
+  "coc-rust-analyzer"
 }
 
 cmd [[
