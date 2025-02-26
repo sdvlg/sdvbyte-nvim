@@ -64,3 +64,11 @@ map("n", "<leader>q", "<CMD>q!<CR>", options)
 
 require("package-info").setup()
 require("crates").setup()
+
+vim.api.nvim_create_user_command("Search", function(opts)
+  local cheatsh = require("cheatsh")
+  cheatsh.fetch(opts.args)
+end, {
+  nargs = 1,
+  desc = "Fetch cheatsheet from cheat.sh",
+})
