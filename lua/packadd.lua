@@ -52,4 +52,5 @@ return require("packer").startup(function(use)
     }
   })
   use "saecki/crates.nvim"
+  use "jbyuki/venn.nvim"
 end)

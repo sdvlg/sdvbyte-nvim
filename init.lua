@@ -21,6 +21,7 @@ require "setups/windows-setup"
 require "setups/toggleterm-setup"
 require "setups/mini-setup"
 require "setups/lualine-setup"
+require "setups/venn-setup"
 
 -- settings
 
@@ -52,6 +53,14 @@ map("n", "<leader>s", "<CMD>w<CR>", options)
 map("n", "<leader>b", "<CMD>DBUIToggle<CR>", options)
 -- duck
 map("n", "<leader>dd", "<CMD>lua require('duck').hatch('🦆')<CR>", options)
+-- new tab
+map("n", "<leader>t", "<CMD>tabnew<CR>", options)
+-- tab previous
+map("n", "<leader>1", "<CMD>tabprevious<CR>", options)
+-- tab next
+map("n", "<leader>2", "<CMD>tabnext<CR>", options)
+-- exit
+map("n", "<leader>q", "<CMD>q!<CR>", options)
 
 require("package-info").setup()
 require("crates").setup()
