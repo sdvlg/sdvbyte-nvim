@@ -5,7 +5,7 @@
   "[java]": {
     "semanticTokens.enable": true
   },
-  "git.addGBlameToVirtualText": true,
-  "git.addGBlameToBufferVar": true,
+  "git.addGBlameToVirtualText": false,
+  "git.addGBlameToBufferVar": false,
   "workspace.ignoredFolders": ["$HOME", "$HOME/.cargo/**", "$HOME/.rustup/**"]
 }
