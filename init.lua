@@ -22,6 +22,7 @@ require "setups/toggleterm-setup"
 require "setups/mini-setup"
 require "setups/lualine-setup"
 require "setups/venn-setup"
+require "setups/codesnap-setup"
 
 -- settings
 
