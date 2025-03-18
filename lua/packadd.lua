@@ -48,7 +48,6 @@ return require("packer").startup(function(use)
   use "vuki656/package-info.nvim"
   use({
     "tamton-aquib/duck.nvim",
-    requires = { "whatyouhide/vim-gotham" }
   })
   use({
     "kristijanhusak/vim-dadbod-ui",
@@ -60,6 +59,7 @@ return require("packer").startup(function(use)
       { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
     }
   })
+  use "https://github.com/luisiacc/the-matrix.nvim"
   use { 'mistricky/codesnap.nvim', run = 'make' }
   use "saecki/crates.nvim"
   use "jbyuki/venn.nvim"
