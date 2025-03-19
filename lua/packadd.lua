@@ -59,7 +59,6 @@ return require("packer").startup(function(use)
       { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
     }
   })
-  use "https://github.com/luisiacc/the-matrix.nvim"
   use { 'mistricky/codesnap.nvim', run = 'make' }
   use "saecki/crates.nvim"
   use "jbyuki/venn.nvim"

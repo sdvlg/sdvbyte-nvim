@@ -27,7 +27,7 @@ require "setups/codesnap-setup"
 -- settings
 
 cmd [[
-  colorscheme thematrix
+  colorscheme retrobox
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
   autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 ]]
