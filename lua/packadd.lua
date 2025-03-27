@@ -60,6 +60,7 @@ return require("packer").startup(function(use)
     }
   })
   use { 'mistricky/codesnap.nvim', run = 'make' }
+  use "shaunsingh/moonlight.nvim"
   use "saecki/crates.nvim"
   use "jbyuki/venn.nvim"
   use "danitrap/cheatsh.nvim"
