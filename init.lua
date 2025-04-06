@@ -27,13 +27,12 @@ require "setups/codesnap-setup"
 -- settings
 
 cmd [[
+  colorscheme spaceduck
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
   autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 ]]
 
 require "setting"
-
-require('moonlight').set()
 
 g.python3_host_prog = "$HOME/.pyenv/versions/3.13.2/bin/python"
 g.python_host_prog = "$HOME/.pyenv/versions/2.7.18/bin/python"
