@@ -1,10 +1,13 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "prettier.enable": true,
-  "java.jdt.ls.java.home": "$JAVA_HOME",
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home",
+  "java.compile.nullAnalysis.mode": "automatic",
   "[java]": {
     "semanticTokens.enable": true
   },
+  "xml.java.home": "/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home",
+  "xml.show.references": true,
   "git.addGBlameToVirtualText": false,
   "git.addGBlameToBufferVar": false,
   "workspace.ignoredFolders": ["$HOME", "$HOME/.cargo/**", "$HOME/.rustup/**"]
