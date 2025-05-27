@@ -1,13 +1,19 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "prettier.enable": true,
-  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home",
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk-amd64",
   "java.compile.nullAnalysis.mode": "automatic",
+  "java.jdt.ls.vmargs": [
+    "-Xms512m",
+    "-Xmx2G",
+    "-XX:+UseG1GC",
+    "-XX:+UseStringDeduplication",
+    "-javaagent:/home/dll/tools/lombok.jar"
+  ],
   "[java]": {
     "semanticTokens.enable": true
   },
-  "xml.java.home": "/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home",
-  "xml.show.references": true,
+  "xml.java.home": "/usr/lib/jvm/java-21-openjdk-amd64",
   "git.addGBlameToVirtualText": false,
   "git.addGBlameToBufferVar": false,
   "workspace.ignoredFolders": ["$HOME", "$HOME/.cargo/**", "$HOME/.rustup/**"]

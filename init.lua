@@ -22,7 +22,7 @@ require "setups/toggleterm-setup"
 require "setups/mini-setup"
 require "setups/lualine-setup"
 require "setups/venn-setup"
-require "setups/codesnap-setup"
+-- require "setups/codesnap-setup"
 
 -- settings
 
@@ -67,9 +67,9 @@ require("package-info").setup()
 require("crates").setup()
 
 vim.api.nvim_create_user_command("Search", function(opts)
-  local cheatsh = require("cheatsh")
-  cheatsh.fetch(opts.args)
+	local cheatsh = require("cheatsh")
+	cheatsh.fetch(opts.args)
 end, {
-  nargs = 1,
-  desc = "Fetch cheatsheet from cheat.sh",
+	nargs = 1,
+	desc = "Fetch cheatsheet from cheat.sh",
 })
