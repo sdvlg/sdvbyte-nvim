@@ -37,4 +37,4 @@ end
 map("n", "<space>t", "<CMD>TermNew direction=float<CR>", options)
 map("n", "<leader>g", "<CMD>lua _lazygit_toggle()<CR>", options)
 map("n", "<space>h", "<CMD>TermNew direction=horizontal<CR>", options)
-map("n", "<space>o", "<CMD>TermSelect<CR>", options)
+map("n", "<space>x", "<CMD>TermSelect<CR>", options)
