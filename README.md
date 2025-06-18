@@ -1,3 +1,3 @@
-# sdvbyte-nvim
+# Author : Kenedy Nopriansyah
 
-Solo Development Byte Asia - Nvim
+Happy Coding :)
