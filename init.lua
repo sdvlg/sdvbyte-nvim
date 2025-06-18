@@ -22,22 +22,23 @@ require "setups/toggleterm-setup"
 require "setups/mini-setup"
 require "setups/lualine-setup"
 require "setups/venn-setup"
-require "setups/codesnap-setup"
+-- require "setups/codesnap-setup"
 
 -- settings
 
 cmd [[
-  colorscheme spaceduck
+  colorscheme blue
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
   autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 ]]
+
 
 require "setting"
 
 g.python3_host_prog = "$HOME/.pyenv/versions/3.13.2/bin/python"
 g.python_host_prog = "$HOME/.pyenv/versions/2.7.18/bin/python"
 g.ruby_host_prog = "/usr/bin/ruby"
-g.perl_host_prog = "/opt/homebrew/bin/perl"
+g.perl_host_prog = "$HOME/perl5/bin/perl"
 
 
 local options = { noremap = true, silent = true }

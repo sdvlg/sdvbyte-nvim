@@ -34,5 +34,6 @@ function _lazygit_toggle()
   lazygit:toggle()
 end
 
-map("n", "<space>t", "<CMD>ToggleTerm toggle<CR>", options)
+map("n", "<space>t", "<CMD>TermNew direction=float<CR>", options)
 map("n", "<leader>g", "<CMD>lua _lazygit_toggle()<CR>", options)
+map("n", "<space>t", "<CMD>TermNew direction=horizontal<CR>", options)
