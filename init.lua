@@ -27,6 +27,7 @@ require "setups/venn-setup"
 -- settings
 
 cmd [[
+  colorscheme adwaita
   autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
   autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
 ]]
